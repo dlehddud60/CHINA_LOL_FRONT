@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'WavvePADO-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/WavvePADO-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WAGURITTF';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/WAGURITTF.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body .loginArea {
+  background: white;
+  color: #8286d2;
+  font-family: WAGURITTF;
+  border-radius: 30px;
+  height: 40vh; width: 25vw;
+
+}
+.loginArea .loginText {
+  text-align: center;
+  font-size: 3rem;
+
+}
+
+.loginArea .loginImgArea {
+  text-align: center;
+}
+
+.LoginBtn {
+  cursor: pointer;
+  width: 80%;
+}
